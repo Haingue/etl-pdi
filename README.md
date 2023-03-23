@@ -1,4 +1,7 @@
 # Pentaho Data integration
+Thanks to this project, you can execute PDI job/transformation in a container.
+
+<br/>
 
 ## Container folders
   - data-integration: folder with Pentaho Data Integration
@@ -9,6 +12,9 @@
 - Your main job must be called "start.kjb"
 - If you need to import files, you must create variables in your main job called "INPUT"
 - If you need to export files, you must create variables in your main job called "OUTPUT"
+
+<br/>
+
 
 ## Quick start
 ### Docker compose
