@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    etl:
+        container_name: pentaho-etl
+        image: haingue/etl-pdi:latest
+        environment:
+            - JOB=start.kjb
+            - LOG_LEVEL=Basic
+        volumes:
+          - ./input:/etl/input
+          - ./output:/etl/output
