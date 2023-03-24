@@ -1,5 +1,6 @@
 # Pentaho Data integration
 Thanks to this project, you can execute PDI job/transformation in a container.
+You can find the docker image on [docker Hub](https://hub.docker.com/r/haingue/etl-pdi)
 
 <br/>
 
